@@ -1,0 +1,99 @@
+.calendar-page{
+  padding:20px;
+  font-family:Segoe UI, Arial;
+}
+
+/* Center the title nicely */
+.calendar-page h2{
+  text-align:center;
+  margin-bottom:15px;
+}
+
+
+/* ===== FLAT MINIMAL CALENDAR ===== */
+
+.flat-calendar{
+  border:none !important;
+  background:transparent !important;
+
+  /* ⭐ Center horizontally */
+  display:block;
+  margin:25px auto;
+}
+
+/* header bar */
+.flat-calendar .react-calendar__navigation{
+  margin-bottom:10px;
+  background:none;
+}
+
+.flat-calendar .react-calendar__navigation button{
+  font-size:16px;
+  font-weight:600;
+  background:none;
+}
+
+/* weekdays row */
+.flat-calendar .react-calendar__month-view__weekdays{
+  text-transform:uppercase;
+  font-size:12px;
+  letter-spacing:.3px;
+}
+
+/* all normal dates black */
+.flat-calendar .react-calendar__tile{
+  color:#000 !important;
+  background:none !important;
+}
+
+/* soft hover */
+.flat-calendar .react-calendar__tile:hover{
+  background:#eef3ff !important;
+  border-radius:8px;
+}
+
+
+/* ===== TODAY (soft yellow) ===== */
+.flat-calendar .react-calendar__tile--now{
+  background:#fff6cc !important;
+  border-radius:8px;
+  color:#000 !important;
+  font-weight:700;
+}
+
+.flat-calendar .react-calendar__tile--now:hover{
+  background:#ffe773 !important;
+}
+
+
+/* ===== CLICK SELECTED DATE ===== */
+.flat-calendar .react-calendar__tile--active{
+  background:#e9f0ff !important;
+  border-radius:8px;
+}
+
+
+/* ===== EVENT COLORS ===== */
+
+/* overdue — RED */
+.overdue-date{
+  color:#e53935 !important;
+  font-weight:700;
+}
+
+/* completed — BLUE */
+.completed-date{
+  color:#1f6feb !important;
+  font-weight:700;
+}
+
+/* default labeled dates */
+.normal-date{
+  color:#000 !important;
+}
+
+.scheduled-date{
+  background:#fff7c2 !important;
+  border-radius:6px;
+  font-weight:600;
+}

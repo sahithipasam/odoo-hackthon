@@ -1,0 +1,78 @@
+.teams-page{
+  padding:20px;
+  font-family:Segoe UI, Arial;
+}
+
+.subtitle{
+  opacity:.7;
+  margin-bottom:20px;
+}
+
+
+/* ===== TABLE CARD ===== */
+
+.team-table table{
+  width:100%;
+  border-collapse:separate;
+  border-spacing:0;
+
+  background:white;
+  border-radius:16px;
+
+  box-shadow:0 4px 16px rgba(0,0,0,.12);
+  overflow:hidden;
+}
+
+/* header */
+.team-table th{
+  background:#f4f6fb;
+  padding:14px;
+  text-align:left;
+  font-weight:700;
+  border-bottom:1px solid #e5e7ef;
+}
+
+/* rows */
+.team-table td{
+  padding:14px;
+  border-bottom:1px solid #eef0f6;
+}
+
+/* zebra */
+.team-table tr:nth-child(even){
+  background:#fafbff;
+}
+
+/* hover */
+.team-table tr:hover{
+  background:#eef3ff;
+  cursor:pointer;
+}
+
+
+/* ===== LOAD BADGES ===== */
+
+.badge{
+  padding:6px 12px;
+  border-radius:14px;
+  font-weight:700;
+  font-size:13px;
+}
+
+/* high load — red */
+.load-high{
+  background:#ffe3e3;
+  color:#c62828;
+}
+
+/* medium — amber */
+.load-mid{
+  background:#fff2cd;
+  color:#a36b00;
+}
+
+/* low — green */
+.load-low{
+  background:#dff6e5;
+  color:#1b5e20;
+}
