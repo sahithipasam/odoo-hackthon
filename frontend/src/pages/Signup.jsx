@@ -64,15 +64,7 @@ const Signup = () => {
             required
           />
 
-          <select
-            name="role"
-            value={form.role}
-            onChange={handleChange}
-          >
-            <option value="Technician">Technician</option>
-            <option value="Manager">Manager</option>
-            <option value="Admin">Admin</option>
-          </select>
+          
 
           <input
             type="password"
